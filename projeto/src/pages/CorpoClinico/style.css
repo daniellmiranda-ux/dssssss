@@ -1,0 +1,43 @@
+.corpo-clinico-container {
+    max-width: 850px;
+    width: 100%;
+    padding: 20px;
+    animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.corpo-clinico-container h1 {
+    font-size: 2.3rem;
+    color: var(--primary-green);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.card-medico {
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(44, 94, 59, 0.04);
+    border-left: 5px solid var(--accent-green);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-medico:hover {
+    transform: scale(1.02) translateX(5px);
+    box-shadow: 0 8px 25px rgba(44, 94, 59, 0.1);
+    background-color: var(--light-beige);
+}
+
+.card-medico h2 {
+    font-size: 1.3rem;
+    color: var(--text-dark);
+}
+
+.card-medico p {
+    font-weight: 700;
+    color: var(--primary-green);
+}
